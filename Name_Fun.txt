@@ -1,0 +1,141 @@
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter your Name in Caps: ");
+		
+		String str = sc.next();
+		
+		char []ch= str.toCharArray();
+		
+		for (int i=0; i<ch.length; i++)
+		{
+			if(ch[i]== 'A')
+			{
+			    System.out.println("..######..\n..#....#..\n..######..\n..#....#..\n..#....#..\n\n");
+			}
+			
+			else if(ch[i]=='B')
+			{
+                System.out.println("..######..\n..#....#..\n..#####...\n..#....#..\n..######..\n\n");
+			}
+			
+			else if(ch[i]=='C')
+			{
+			    System.out.println("..######..\n..#.......\n..#.......\n..#.......\n..######..\n\n");
+			}
+			
+			else if(ch[i]=='D')
+			{
+			    System.out.println("..#####...\n..#....#..\n..#....#..\n..#....#..\n..#####...\n\n");
+			}
+			
+			else if(ch[i]=='E')
+			{
+			    System.out.println("..######..\n..#.......\n..#####...\n..#.......\n..######..\n\n");
+			}
+			
+			else if(ch[i]=='F')
+			{
+			    System.out.println("..######..\n..#.......\n..#####...\n..#.......\n..#.......\n\n");
+			}
+			
+			else if (ch[i] == 'G')
+			{
+                System.out.println("..######..\n..#.......\n..#####...\n..#....#..\n..#####...\n\n");
+			} 
+			
+            else if (ch[i] == 'H')
+            {
+                System.out.println("..#....#..\n..#....#..\n..######..\n..#....#..\n..#....#..\n\n");
+            }
+            
+            else if (ch[i] == 'I')
+            {
+                System.out.println("..######..\n....##....\n....##....\n....##....\n..######..\n\n");
+            }
+            else if (ch[i] == 'J')
+            {
+                System.out.println("..######..\n....##....\n....##....\n..#.##....\n..####....\n\n");
+            }
+            
+            else if (ch[i] == 'K')
+            {
+                System.out.println("..#...#...\n..#..#....\n..##......\n..#..#....\n..#...#...\n\n");
+            } 
+            
+            else if (ch[i] == 'L')
+            {
+                System.out.println("..#.......\n..#.......\n..#.......\n..#.......\n..######..\n\n");
+            }
+            
+            else if (ch[i] == 'M')
+            {
+                System.out.println("..#....#..\n..##..##..\n..#.##.#..\n..#....#..\n..#....#..\n\n");
+            }
+            
+            else if (ch[i] == 'N')
+            {
+                System.out.println("..#....#..\n..##...#..\n..#.#..#..\n..#..#.#..\n..#...##..\n\n");
+            }
+            
+            else if (ch[i] == 'O')
+            {
+                System.out.println("..######..\n..#....#..\n..#....#..\n..#....#..\n..######..\n\n");
+            }
+            
+            else if (ch[i] == 'P')
+            {
+                System.out.println("..######..\n..#....#..\n..######..\n..#.......\n..#.......\n\n");
+            }
+            
+            else if (ch[i] == 'Q')
+            {
+                System.out.println("..######..\n..#....#..\n..#.#..#..\n..#..#.#..\n..######..\n\n");
+            }
+            
+        
+            else if (ch[i] == 'R')
+            {
+                System.out.println("..######..\n..#....#..\n..#.##...\n..#...#...\n..#....#..\n\n");
+            }
+            
+            else if (ch[i] == 'S')
+            {
+                System.out.println("..######..\n..#.......\n..######..\n.......#..\n..######..\n\n");
+            }
+            
+            else if (ch[i] == 'T')
+            {
+                System.out.println("..######..\n....##....\n....##....\n....##....\n....##....\n\n");
+            }
+            
+            else if (ch[i] == 'U')
+            {
+                System.out.println("..#....#..\n..#....#..\n..#....#..\n..#....#..\n..######..\n\n");
+            }
+            
+            else if (ch[i] == 'V')
+            {
+                System.out.println("..#....#..\n..#....#..\n..#....#..\n...#..#...\n....##....\n\n");
+            }
+            else if (ch[i] == 'W')
+            {
+                System.out.println("..#....#..\n..#....#..\n..#.##.#..\n..##..##..\n..#....#..\n\n");
+            }
+            else if (ch[i] == 'X')
+            {
+                System.out.println("..#....#..\n...#..#...\n....##....\n...#..#...\n..#....#..\n\n");
+            }
+            else if (ch[i] == 'Y')
+            {
+                System.out.println("..#....#..\n...#..#...\n....##....\n....##....\n....##....\n\n");
+            }
+            else if (ch[i] == 'Z')
+            {
+                System.out.println("..######..\n......#...\n.....#....\n....#.....\n..######..\n\n");
+            }
+		}
+    }
+}
